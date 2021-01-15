@@ -1,9 +1,6 @@
 package com.spydrone.sfgdi;
 
-import com.spydrone.sfgdi.controllers.ConstructorInjectedController;
-import com.spydrone.sfgdi.controllers.MyController;
-import com.spydrone.sfgdi.controllers.PropertyInjectedController;
-import com.spydrone.sfgdi.controllers.SetterInjectedController;
+import com.spydrone.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -13,6 +10,10 @@ public class SfgDiApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);
+
+		System.out.println("---- i18n");
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println(i18nController.sayHello());
 
 		System.out.println("---- Primary bean");
 		MyController myController = (MyController) ctx.getBean("myController");
