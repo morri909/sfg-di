@@ -4,8 +4,10 @@ import com.spydrone.sfgdi.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.spydrone.services", "com.spydrone.sfgdi"})
 public class SfgDiApplication {
 
 	public static void main(String[] args) {

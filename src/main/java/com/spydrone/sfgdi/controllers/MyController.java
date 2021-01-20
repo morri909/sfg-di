@@ -1,6 +1,6 @@
 package com.spydrone.sfgdi.controllers;
 
-import com.spydrone.sfgdi.services.GreetingService;
+import com.spydrone.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller

@@ -1,4 +1,4 @@
-package com.spydrone.sfgdi.services;
+package com.spydrone.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

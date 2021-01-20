@@ -1,4 +1,4 @@
-package com.spydrone.sfgdi.services;
+package com.spydrone.services;
 
 public interface GreetingService {
 
