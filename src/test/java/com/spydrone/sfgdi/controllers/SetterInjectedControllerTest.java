@@ -1,6 +1,6 @@
 package com.spydrone.sfgdi.controllers;
 
-import com.spydrone.services.ConstructorGreetingService;
+import com.spydrone.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
