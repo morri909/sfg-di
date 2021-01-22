@@ -1,0 +1,5 @@
+spydrone:
+  jms:
+    username: Rodgers
+    password: password
+    dburl: packers.com
