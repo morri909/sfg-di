@@ -3,3 +3,11 @@ spydrone:
     username: Rodgers
     password: password
     dburl: packers.com
+---
+spring:
+  config:
+    activate:
+      on-profile: es
+spydrone:
+  jms:
+    username: Roberto
